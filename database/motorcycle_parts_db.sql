@@ -16,6 +16,7 @@ CREATE TABLE users (
     province VARCHAR(50),
     postal_code VARCHAR(10),
     is_admin BOOLEAN DEFAULT FALSE,
+    is_active BOOLEAN DEFAULT TRUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     INDEX idx_email (email),
@@ -145,9 +146,9 @@ INSERT INTO products (name, description, price, category_id, brand, stock_quanti
 ('Yamaha XS650 Carburetor', 'Rebuilt carburetor for Yamaha XS650. Mikuni VM34 with new jets and gaskets.', 4500.00, 8, 'Yamaha', 6, 'YAM-XS650-CRB-001', TRUE);
 
 -- Insert admin user (password: admin123)
-INSERT INTO users (username, email, password, first_name, last_name, is_admin) VALUES
-('admin', 'admin@motorcycleparts.ph', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Admin', 'User', TRUE);
+INSERT INTO users (username, email, password, first_name, last_name, is_admin, is_active) VALUES
+('admin', 'admin@motorcycleparts.ph', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Admin', 'User', TRUE, TRUE);
 
 -- Insert sample customer (password: customer123)
-INSERT INTO users (username, email, password, first_name, last_name, phone, address, city, province, postal_code) VALUES
-('customer', 'customer@example.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Juan', 'Dela Cruz', '+63 912 345 6789', '123 Rizal Street', 'Manila', 'Metro Manila', '1000');
+INSERT INTO users (username, email, password, first_name, last_name, phone, address, city, province, postal_code, is_active) VALUES
+('customer', 'customer@example.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Juan', 'Dela Cruz', '+63 912 345 6789', '123 Rizal Street', 'Manila', 'Metro Manila', '1000', TRUE);
