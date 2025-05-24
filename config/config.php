@@ -82,4 +82,7 @@ $db = $database->getConnection();
 
 // Set timezone
 date_default_timezone_set('Asia/Manila');
+
+// Add the new constant
+define('BASE_URL', 'http://yourdomain.com/'); // Replace with your actual base URL
 ?>
