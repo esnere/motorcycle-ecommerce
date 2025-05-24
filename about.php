@@ -20,7 +20,7 @@ require_once 'includes/header.php';
                 <div class="col-md-6">
                     <h2 class="h3 fw-bold mb-3">Our Story</h2>
                     <p class="text-muted mb-3">
-                        Founded in 2010, Classic Motorcycle Parts Philippines has been serving motorcycle enthusiasts 
+                        Founded recently, Classic Motorcycle Parts Philippines has been serving motorcycle enthusiasts 
                         across the country with authentic, high-quality parts for vintage and classic motorcycles.
                     </p>
                     <p class="text-muted mb-3">
@@ -146,10 +146,10 @@ require_once 'includes/header.php';
                         <div class="card border-0 shadow-sm">
                             <div class="card-body text-center p-4">
                                 <img src="/placeholder.svg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
-                                <h5 class="fw-bold">Juan Dela Cruz</h5>
+                                <h5 class="fw-bold">Espencer Badilla</h5>
                                 <p class="text-muted small mb-2">Founder & CEO</p>
                                 <p class="text-muted small">
-                                    25+ years experience in motorcycle restoration and parts sourcing.
+                                    4 years kupal in palawan state university.
                                 </p>
                             </div>
                         </div>
@@ -158,10 +158,10 @@ require_once 'includes/header.php';
                         <div class="card border-0 shadow-sm">
                             <div class="card-body text-center p-4">
                                 <img src="/placeholder.svg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
-                                <h5 class="fw-bold">Maria Santos</h5>
+                                <h5 class="fw-bold">Kupal 2</h5>
                                 <p class="text-muted small mb-2">Technical Specialist</p>
                                 <p class="text-muted small">
-                                    Expert in vintage motorcycle mechanics and parts compatibility.
+                                    Expert in......... I don't know.
                                 </p>
                             </div>
                         </div>
@@ -170,10 +170,10 @@ require_once 'includes/header.php';
                         <div class="card border-0 shadow-sm">
                             <div class="card-body text-center p-4">
                                 <img src="/placeholder.svg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
-                                <h5 class="fw-bold">Roberto Garcia</h5>
-                                <p class="text-muted small mb-2">Customer Service Manager</p>
+                                <h5 class="fw-bold">Kupal 3</h5>
+                                <p class="text-muted small mb-2">Manager</p>
                                 <p class="text-muted small">
-                                    Dedicated to ensuring every customer gets the perfect part for their bike.
+                                    Dedicated to ensure every customer, he will force them to buy our products.
                                 </p>
                             </div>
                         </div>
