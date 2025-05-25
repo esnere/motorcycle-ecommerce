@@ -11,8 +11,8 @@ $categories = $product->getCategories();
 <!-- Hero Section -->
 <section class="hero-section">
     <div class="container">
-        <div class="row align-items-center min-vh-100">
-            <div class="col-lg-6">
+        <div class="row align-items-center min-vh-100 justify-content-center">
+            <div class="col-lg-6 text-center">
                 <h1 class="display-4 fw-bold text-white mb-4">
                     Classic Motorcycle Parts
                     <span class="text-warning">Philippines</span>
@@ -21,7 +21,7 @@ $categories = $product->getCategories();
                     Find authentic parts for your vintage motorcycle. From Honda CB to Yamaha XS, 
                     we have the parts you need to keep your classic bike running smoothly.
                 </p>
-                <div class="d-flex flex-wrap gap-3">
+                <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="shop.php" class="btn btn-warning btn-lg">
                         <i class="fas fa-shopping-bag me-2"></i>Shop Now
                     </a>
@@ -31,13 +31,9 @@ $categories = $product->getCategories();
                 </div>
                 <div class="mt-4">
                     <small class="text-light">
-                        <i class="fas fa-shipping-fast me-2"></i>Free shipping on orders over ₱5,000
+                        <i class="fas fa-shipping-fast me-2"></i>Free shipping on orders over ₱50
                     </small>
                 </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                <img src="/placeholder.svg?height=400&width=600" alt="Classic Motorcycle" 
-                     class="img-fluid rounded shadow-lg" style="max-height: 400px;">
             </div>
         </div>
     </div>
