@@ -8,12 +8,12 @@
                     <h5 class="text-warning">
                         <i class="fas fa-motorcycle me-2"></i><?php echo SITE_NAME; ?>
                     </h5>
-                    <p class="mb-3">Your trusted source for classic motorcycle parts in the Philippines. Quality parts for vintage bikes since 2020.</p>
+                    <p class="mb-3">Your trusted source for classic motorcycle parts in the Philippines. Quality parts for vintage bikes.</p>
                     <div class="social-links">
-                        <a href="#" class="text-light me-3 fs-4"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="text-light me-3 fs-4"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-light me-3 fs-4"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-light fs-4"><i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/espencer15" class="text-light me-3 fs-4"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/espencer.970238" class="text-light me-3 fs-4"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/espenwho/" class="text-light me-3 fs-4"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@ezpencer15" class="text-light fs-4"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-md-2 mb-4">
@@ -67,9 +67,8 @@
                     <p class="mb-0">&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="privacy.php" class="text-light text-decoration-none me-3">Privacy Policy</a>
-                    <a href="terms.php" class="text-light text-decoration-none me-3">Terms of Service</a>
-                    <a href="shipping.php" class="text-light text-decoration-none">Shipping Info</a>
+                    <a href="privacy-policy.php" class="text-light text-decoration-none me-3">Privacy Policy</a>
+                    <a href="terms-of-service.php" class="text-light text-decoration-none me-3">Terms of Service</a>
                 </div>
             </div>
         </div>

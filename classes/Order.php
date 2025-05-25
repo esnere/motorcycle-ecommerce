@@ -198,5 +198,13 @@ class Order {
         $stmt->execute();
         return $stmt->fetch();
     }
+
+    public function getOrderDetails($orderId) {
+        $query = "SELECT * FROM order_details WHERE order_id = :order_id";
+        $stmt = $this->conn->prepare($query); 
+        $stmt->bindParam(':order_id', $orderId); 
+        $stmt->execute(); 
+        return $stmt->fetchAll(PDO::FETCH_ASSOC); 
+    }
 }
 ?>

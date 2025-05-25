@@ -11,8 +11,6 @@ require_once 'includes/header.php';
                     <h1 class="h3 mb-0"><i class="fas fa-file-contract me-2"></i>Terms of Service</h1>
                 </div>
                 <div class="card-body">
-                    <p class="text-muted mb-4"><strong>Last Updated:</strong> <?php echo date('F j, Y'); ?></p>
-                    
                     <div class="terms-content">
                         <section class="mb-5">
                             <h2 class="h4 text-primary mb-3">1. Acceptance of Terms</h2>
@@ -117,20 +115,11 @@ require_once 'includes/header.php';
                             <h2 class="h4 text-primary mb-3">14. Contact Information</h2>
                             <p>If you have any questions about these Terms of Service, please contact us at:</p>
                             <div class="contact-info bg-light p-3 rounded">
-                                <p class="mb-1"><strong>Email:</strong> legal@motorcycleparts.com</p>
-                                <p class="mb-1"><strong>Phone:</strong> (555) 123-4567</p>
-                                <p class="mb-0"><strong>Address:</strong> 123 Motorcycle Street, Parts City, PC 12345</p>
+                                <p class="mb-1"><strong>Email:</strong> classy@classicmotoparts.ph</p>
+                                <p class="mb-1"><strong>Phone:</strong> +63 993 050 2358</p>
+                                <p class="mb-0"><strong>Address:</strong> Ledisma Vill, Brgy Sicsicsan, Puerto Princesa City, Palawan, Philippines, 5300<br>
                             </div>
                         </section>
-                    </div>
-
-                    <div class="text-center mt-5">
-                        <a href="<?php echo BASE_URL; ?>" class="btn btn-primary">
-                            <i class="fas fa-home me-2"></i>Return to Home
-                        </a>
-                        <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn-outline-primary ms-2">
-                            <i class="fas fa-envelope me-2"></i>Contact Us
-                        </a>
                     </div>
                 </div>
             </div>

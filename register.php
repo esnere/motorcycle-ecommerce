@@ -193,8 +193,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="terms" required>
                             <label class="form-check-label" for="terms">
-                                I agree to the <a href="terms.php" target="_blank">Terms of Service</a> and 
-                                <a href="privacy.php" target="_blank">Privacy Policy</a> *
+                                I agree to the <a href="terms-of-service.php" target="_blank">Terms of Service</a> and 
+                                <a href="privacy-policy.php" target="_blank">Privacy Policy</a> *
                             </label>
                             <div class="invalid-feedback">You must agree to the terms and conditions.</div>
                         </div>
