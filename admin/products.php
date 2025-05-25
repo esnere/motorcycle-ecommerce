@@ -227,7 +227,6 @@ if ($action === 'edit' && isset($_GET['id'])) {
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
-                                        <th>Image</th>
                                         <th>Product</th>
                                         <th>Category</th>
                                         <th>Price</th>
