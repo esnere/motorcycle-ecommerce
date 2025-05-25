@@ -153,7 +153,6 @@ if ($action === 'edit' && isset($_GET['id'])) {
 
         <!-- Main Content -->
         <div class="col-md-9 col-lg-10">
-            <div class="pt-5"> 
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h2>Product Management</h2>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal">
