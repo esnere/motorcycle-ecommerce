@@ -16,7 +16,7 @@ $limit = PRODUCTS_PER_PAGE;
 $offset = ($page - 1) * $limit;
 
 // Get products and total count
-$products = $product->getAllProducts($limit, $offset, $category_id, $search);
+$products = $product->getAllProducts($limit, $offset, $category_id, $search, $sort);
 $total_products = $product->getProductCount($category_id, $search);
 $total_pages = ceil($total_products / $limit);
 
@@ -150,18 +150,15 @@ $query_string = http_build_query($query_params);
                     <div class="col-md-6 col-xl-4">
                         <div class="card product-card h-100">
                             <div class="product-image">
-                                <img src="<?php echo $prod['image'] ?: '/placeholder.svg?height=250&width=300'; ?>" 
-                                     class="card-img-top" alt="<?php echo htmlspecialchars($prod['name']); ?>">
+
+                                <!-- <img src="<?php echo $prod['image'] ?: '/placeholder.svg?height=250&width=300'; ?>" 
+                                     class="card-img-top" alt="<?php echo htmlspecialchars($prod['name']); ?>"> -->
+
                                 <div class="product-overlay">
                                     <a href="product.php?id=<?php echo $prod['id']; ?>" class="btn btn-warning">
                                         <i class="fas fa-eye me-2"></i>View Details
                                     </a>
                                 </div>
-                                <?php if ($prod['featured']): ?>
-                                    <span class="position-absolute top-0 start-0 badge bg-warning text-dark m-2">
-                                        <i class="fas fa-star me-1"></i>Featured
-                                    </span>
-                                <?php endif; ?>
                             </div>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title"><?php echo htmlspecialchars($prod['name']); ?></h5>

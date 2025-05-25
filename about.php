@@ -13,24 +13,15 @@ require_once 'includes/header.php';
             </div>
 
             <!-- Company Story -->
-            <div class="row mb-5">
-                <div class="col-md-6">
-                    <img src="/placeholder.svg?height=400&width=600" alt="Classic Motorcycle Workshop" class="img-fluid rounded shadow-sm mb-4">
-                </div>
-                <div class="col-md-6">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-md-8 col-lg-12 text-center">
                     <h2 class="h3 fw-bold mb-3">Our Story</h2>
                     <p class="text-muted mb-3">
-                        Founded recently, Classic Motorcycle Parts Philippines has been serving motorcycle enthusiasts 
-                        across the country with authentic, high-quality parts for vintage and classic motorcycles.
-                    </p>
+                        Founded recently, Classic Motorcycle Parts Philippines has been serving motorcycle enthusiasts across the country with authentic, high-quality parts for vintage and classic motorcycles.</p>
                     <p class="text-muted mb-3">
-                        What started as a small garage operation has grown into the Philippines' most trusted source 
-                        for hard-to-find motorcycle parts, serving both professional mechanics and passionate hobbyists.
-                    </p>
+                        What started as a small garage operation has grown into the Philippines' most trusted source for hard-to-find motorcycle parts, serving both professional mechanics and passionate hobbyists.</p>
                     <p class="text-muted">
-                        Our commitment to quality and customer satisfaction has made us the go-to destination for 
-                        motorcycle restoration projects and maintenance needs.
-                    </p>
+                        Our commitment to quality and customer satisfaction has made us the go-to destination for motorcycle restoration projects and maintenance needs.</p>
                 </div>
             </div>
 

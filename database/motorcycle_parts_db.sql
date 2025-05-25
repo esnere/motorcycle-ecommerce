@@ -143,7 +143,18 @@ INSERT INTO products (name, description, price, category_id, brand, stock_quanti
 ('Honda CB350 Gas Tank', 'Fuel tank for Honda CB350. Steel construction with original mounting points. Requires painting.', 8500.00, 5, 'Honda', 3, 'HON-CB350-TNK-001', FALSE),
 ('Universal Chrome Exhaust Pipe', 'Chrome exhaust pipe suitable for various classic bikes. 38mm diameter with universal mounting.', 1200.00, 6, 'Universal', 20, 'UNI-CHR-EXH-001', TRUE),
 ('Honda CB750 Clutch Kit', 'Complete clutch kit for Honda CB750. Includes friction plates, steel plates, and springs.', 1800.00, 7, 'Honda', 12, 'HON-CB750-CLT-001', FALSE),
-('Yamaha XS650 Carburetor', 'Rebuilt carburetor for Yamaha XS650. Mikuni VM34 with new jets and gaskets.', 4500.00, 8, 'Yamaha', 6, 'YAM-XS650-CRB-001', TRUE);
+('Yamaha XS650 Carburetor', 'Rebuilt carburetor for Yamaha XS650. Mikuni VM34 with new jets and gaskets.', 4500.00, 8, 'Yamaha', 6, 'YAM-XS650-CRB-001', TRUE)
+('Kawasaki Z900 Clutch Cable', 'Durable clutch cable for Kawasaki Z900. Smooth operation and direct fit.', 650.00, 7, 'Kawasaki', 18, 'KAW-Z900-CLT-001', FALSE),
+('Suzuki GS750 Ignition Coil', 'High-performance ignition coil for Suzuki GS750. Improves spark strength and reliability.', 1300.00, 2, 'Suzuki', 10, 'SUZ-GS750-IGN-001', TRUE),
+('Yamaha RD350 Rear Fender', 'Metal rear fender for Yamaha RD350. Original shape, ready for paint.', 2200.00, 5, 'Yamaha', 5, 'YAM-RD350-FND-001', FALSE),
+('Honda CB550 Front Fork Kit', 'Rebuild kit for Honda CB550 front forks. Includes seals, bushings, and springs.', 1700.00, 3, 'Honda', 7, 'HON-CB550-FRK-001', TRUE),
+('Universal LED Tail Light', 'Compact LED tail light with integrated brake and turn signals. Fits most classic bikes.', 950.00, 2, 'Universal', 30, 'UNI-LED-TL-001', TRUE),
+('Yamaha XS750 Gear Shifter', 'Replacement gear shifter lever for Yamaha XS750. OEM-style finish.', 780.00, 7, 'Yamaha', 12, 'YAM-XS750-GSH-001', FALSE),
+('Honda CL350 Muffler Set', 'Chrome muffler set for Honda CL350. Classic scrambler style.', 3100.00, 6, 'Honda', 6, 'HON-CL350-MUF-001', TRUE),
+('Suzuki GT550 Fuel Petcock', 'OEM-style petcock for Suzuki GT550. Two-position valve with reserve function.', 500.00, 8, 'Suzuki', 20, 'SUZ-GT550-PET-001', FALSE),
+('Kawasaki H1 Front Brake Lever', 'Front brake lever for Kawasaki H1. Aluminum finish with pivot hardware.', 350.00, 4, 'Kawasaki', 25, 'KAW-H1-BRK-001', TRUE),
+('Universal Motorcycle Mirror Set', 'Round chrome mirrors with 10mm thread. Suitable for most motorcycle handlebars.', 600.00, 5, 'Universal', 50, 'UNI-CHR-MIR-001', TRUE);
+
 
 -- Insert admin user (password: admin123)
 INSERT INTO users (username, email, password, first_name, last_name, is_admin, is_active) VALUES

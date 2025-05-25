@@ -37,10 +37,10 @@ $related_products = $product_obj->getAllProducts(4, 0, $product['category_id']);
     <div class="row">
         <div class="col-lg-6 mb-4">
             <div class="product-image-container">
-                <img src="<?php echo $product['image'] ?: '/placeholder.svg?height=500&width=500'; ?>" 
+                <!-- <img src="<?php echo $product['image'] ?: '/placeholder.svg?height=500&width=500'; ?>" 
                      class="img-fluid rounded shadow product-main-image" 
                      alt="<?php echo htmlspecialchars($product['name']); ?>"
-                     style="width: 100%; height: 400px; object-fit: cover;">
+                     style="width: 100%; height: 400px; object-fit: cover;"> -->
                 
                 <!-- Image Gallery (if gallery images exist) -->
                 <?php if (!empty($product['gallery'])): ?>
@@ -73,11 +73,6 @@ $related_products = $product_obj->getAllProducts(4, 0, $product['category_id']);
                     <span class="text-muted">
                         <i class="fas fa-barcode me-1"></i>SKU: <?php echo htmlspecialchars($product['sku']); ?>
                     </span>
-                    <?php if ($product['featured']): ?>
-                        <span class="badge bg-warning text-dark ms-2">
-                            <i class="fas fa-star me-1"></i>Featured
-                        </span>
-                    <?php endif; ?>
                 </div>
 
                 <div class="product-price mb-4">
