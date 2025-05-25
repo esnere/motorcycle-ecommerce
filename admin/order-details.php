@@ -42,6 +42,7 @@ $is_print = isset($_GET['print']);
 </head>
 <body>
     <div class="header">
+    <div class="pt-5"> 
         <h1><?php echo SITE_NAME; ?></h1>
         <h2>Order Invoice</h2>
     </div>
