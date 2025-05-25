@@ -98,8 +98,8 @@ $categories = $product->getCategories();
                 <div class="col-md-6 col-lg-4">
                     <div class="card product-card h-100">
                         <div class="product-image">
-                            <img src="<?php echo $product['image'] ?: '/placeholder.svg?height=250&width=300'; ?>" 
-                                 class="card-img-top" alt="<?php echo htmlspecialchars($product['name']); ?>">
+                            <!-- <img src="<?php echo $product['image'] ?: '/placeholder.svg?height=250&width=300'; ?>" 
+                                 class="card-img-top" alt="<?php echo htmlspecialchars($product['name']); ?>"> -->
                             <div class="product-overlay">
                                 <a href="product.php?id=<?php echo $product['id']; ?>" class="btn btn-warning">
                                     <i class="fas fa-eye me-2"></i>View Details
