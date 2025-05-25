@@ -240,10 +240,6 @@ if ($action === 'edit' && isset($_GET['id'])) {
                                     <?php foreach ($products as $prod): ?>
                                     <tr>
                                         <td>
-                                            <img src="<?php echo $prod['image'] ?: '/placeholder.svg?height=50&width=50'; ?>" 
-                                                 class="rounded" alt="Product" style="width: 50px; height: 50px; object-fit: cover;">
-                                        </td>
-                                        <td>
                                             <div>
                                                 <strong><?php echo htmlspecialchars($prod['name']); ?></strong>
                                                 <?php if ($prod['featured']): ?>
