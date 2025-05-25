@@ -8,7 +8,7 @@ $featured_products = $product->getFeaturedProducts(6);
 $categories = $product->getCategories();
 ?>
 
-<!-- Hero Section -->
+<!-- Homepage Section -->
 <section class="hero-section">
     <div class="container">
         <div class="row align-items-center min-vh-100 justify-content-center">

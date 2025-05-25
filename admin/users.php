@@ -127,6 +127,7 @@ $stats = $db->query($stats_query)->fetch();
 ?>
 
 <div class="container-fluid py-4">
+<div class="pt-5"> 
     <div class="row">
         <!-- Sidebar -->
         <div class="col-md-3 col-lg-2">
@@ -163,6 +164,7 @@ $stats = $db->query($stats_query)->fetch();
 
         <!-- Main Content -->
         <div class="col-md-9 col-lg-10">
+        <div class="pt-5"> 
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h2>User Management</h2>
                 <div class="text-muted">

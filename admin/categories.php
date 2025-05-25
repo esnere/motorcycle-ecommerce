@@ -97,6 +97,7 @@ foreach ($categories as $category) {
 ?>
 
 <div class="container-fluid py-4">
+<div class="pt-5"> 
     <div class="row">
         <!-- Sidebar -->
         <div class="col-md-3 col-lg-2">
@@ -133,9 +134,10 @@ foreach ($categories as $category) {
 
         <!-- Main Content -->
         <div class="col-md-9 col-lg-10">
+        <div class="pt-5"> 
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h2>Category Management</h2>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#categoryModal">
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#categoryModal">
                     <i class="fas fa-plus me-2"></i>Add Category
                 </button>
             </div>

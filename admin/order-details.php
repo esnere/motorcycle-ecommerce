@@ -48,6 +48,7 @@ $is_print = isset($_GET['print']);
 <?php else: ?>
 
 <div class="container-fluid py-4">
+<div class="pt-5"> 
     <div class="row">
         <!-- Sidebar -->
         <div class="col-md-3 col-lg-2">
