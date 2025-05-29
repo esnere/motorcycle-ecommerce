@@ -43,7 +43,7 @@ class Order {
             
             foreach ($cart_items as $item) {
                 $this->addOrderItem($order_id, $item['product_id'], $item['quantity'], $item['price']);
-                $product->updateStock($item['product_id'], $item['quantity']);
+                $product->updateStock($item['product_id'], -$item['quantity']);
             }
             
             // Clear cart
@@ -107,6 +107,27 @@ class Order {
             $stmt->bindParam(':user_id', $user_id);
         }
         
+        $stmt->execute();
+        return $stmt->fetch();
+    }
+
+    public function getOrderByNumber($order_number, $user_id = null) {
+        $query = "SELECT o.*, u.first_name, u.last_name, u.email 
+              FROM " . $this->table . " o 
+              JOIN users u ON o.user_id = u.id 
+              WHERE o.order_number = :order_number";
+    
+        if ($user_id) {
+            $query .= " AND o.user_id = :user_id";
+        }
+    
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(':order_number', $order_number);
+    
+        if ($user_id) {
+            $stmt->bindParam(':user_id', $user_id);
+        }
+    
         $stmt->execute();
         return $stmt->fetch();
     }

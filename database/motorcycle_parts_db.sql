@@ -122,6 +122,19 @@ CREATE TABLE admin_logs (
     INDEX idx_admin (admin_id),
     INDEX idx_created (created_at)
 );
+-- Stock logs table for inventory tracking
+CREATE TABLE IF NOT EXISTS stock_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL,
+    old_stock INT NOT NULL,
+    new_stock INT NOT NULL,
+    change_amount INT NOT NULL,
+    reason VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE,
+    INDEX idx_product_date (product_id, created_at)
+);
+
 
 -- Insert sample categories
 INSERT INTO categories (name, description) VALUES
