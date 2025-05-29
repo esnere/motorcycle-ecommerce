@@ -136,7 +136,7 @@ require_once 'includes/header.php';
                     <div class="col-md-4 mb-4">
                         <div class="card border-0 shadow-sm">
                             <div class="card-body text-center p-4">
-                                <img src="/placeholder.svg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+                                <img src="img/espencer.jpg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
                                 <h5 class="fw-bold">Espencer Badilla</h5>
                                 <p class="text-muted small mb-2">Founder & CEO</p>
                                 <p class="text-muted small">
@@ -160,7 +160,7 @@ require_once 'includes/header.php';
                     <div class="col-md-4 mb-4">
                         <div class="card border-0 shadow-sm">
                             <div class="card-body text-center p-4">
-                                <img src="/placeholder.svg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+                                <img src="img/jhonny.jpg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
                                 <h5 class="fw-bold">Jhonny Mahinay</h5>
                                 <p class="text-muted small mb-2">Manager</p>
                                 <p class="text-muted small">
