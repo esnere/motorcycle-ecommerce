@@ -148,7 +148,7 @@ require_once 'includes/header.php';
                     <div class="col-md-4 mb-4">
                         <div class="card border-0 shadow-sm">
                             <div class="card-body text-center p-4">
-                                <img src="/placeholder.svg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+                                <img src="img/arjay.jpg?height=150&width=150" alt="Team Member" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
                                 <h5 class="fw-bold">Arjay Timbangcaya</h5>
                                 <p class="text-muted small mb-2">Technical Specialist</p>
                                 <p class="text-muted small">
@@ -164,7 +164,7 @@ require_once 'includes/header.php';
                                 <h5 class="fw-bold">Jhonny Mahinay</h5>
                                 <p class="text-muted small mb-2">Manager</p>
                                 <p class="text-muted small">
-                                    Dedicated to ensure every customer, he will force them to buy our products.
+                                    4 years kupal in palawan state university.
                                 </p>
                             </div>
                         </div>
